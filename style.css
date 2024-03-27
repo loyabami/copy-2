@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-link {
+    color: rgba(229, 29, 119, 0.775);
+}
+.nav-item {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 14px 18px;
+}
+.nav-item:hover {
+    background: white;
+    transition: 0.4s;
+}
+.navbar-brand {
+    font-size: 2rem;
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.form-control {
+    border: 1px solid rgb(226, 20, 20);
+    border-radius: 0.25rem;
+    padding: 8px 15px;
+    background: #04AA6D;
+}
+.btn {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 14px 18px;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    margin: 2px 4px; 
+}
+
+
+.main {
+    background-image: url("horse.jpeg");
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.main h1 {
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 200px;
+}
+.main p {
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 6px;
+}
+.btn0 {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 14px 18px;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    margin: 2px 4px;
+}
